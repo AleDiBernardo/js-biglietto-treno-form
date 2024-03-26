@@ -1,0 +1,10 @@
+body {
+  background-image: url("https://www.rinnovabili.it/wp-content/uploads/2021/12/treni-a-idrogeno-e1639385379493.jpg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+main {
+  background-color: rgba(0, 0, 0, 0.5);
+}
