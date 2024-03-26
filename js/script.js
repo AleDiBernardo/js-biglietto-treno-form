@@ -12,9 +12,9 @@ let discount;
 const sendBtn = document.getElementById("sendButton");
 
 sendBtn.addEventListener("click", function () {
-  const userKilometres = document.getElementById("kilometres").value;
+  const userKilometres = parseFloat(document.getElementById("kilometres").value);
 
-  finalPrice = parseFloat(userKilometres) * oneKmPrice;
+  finalPrice = userKilometres * oneKmPrice;
   discount = 0;
 
   //Select checked radio
