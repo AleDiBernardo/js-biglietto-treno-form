@@ -26,7 +26,7 @@ sendBtn.addEventListener("click", function () {
 
     //debug
     console.log("Minorenne: " + finalPrice);
-  } else if (userAge >= 18 && userAge <= 65) {
+  } else if (userAge > 65) {
     discount = finalPrice * 0.4;
 
     //debug
